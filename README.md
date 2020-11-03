@@ -25,4 +25,4 @@ docker-compose up
 
 ## 联系方式
 
-<img src="https://shreade.cn/image/weixin-qrcode.jpg" alt="avatar" style="zoom:30%;" />
+<img src="https://shreade.cn/image/weixin-qrcode.jpg" alt="avatar" style="zoom:10%;" />
