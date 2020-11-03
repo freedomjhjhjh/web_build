@@ -22,3 +22,7 @@ docker-compose up
 
 #访问https://ip
 ```
+
+## 联系方式
+
+![avatar](https://shreade.cn/image/weixin-qrcode.jpg)
