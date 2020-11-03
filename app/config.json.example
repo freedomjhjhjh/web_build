@@ -1,0 +1,8 @@
+{
+    "ListenIp":"",
+    "ListenPort":0,
+    "MinPort":40000,
+    "MaxPort":40050,
+    "License":"b7af8459-4da0-dd00-b8eb-e1a69e7d690b-11",
+    "NatIps":"10.200.16.144"
+}
