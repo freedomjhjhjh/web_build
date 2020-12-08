@@ -5,17 +5,19 @@ services:
     ports:
       - "80:80"
       - "443:443"
+    privileged: true
     volumes:
       - ./nginx/conf.d:/etc/nginx/conf.d
       - ./nginx/cert:/etc/nginx/cert
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ./nginx/log/error.log:/var/log/nginx/error.log
+      - ./nginx/log:/var/log/nginx
       - ./nginx/www/js/config.js:/usr/share/nginx/html/js/config.js
     restart: always
     container_name: nginx
   app:
     image: registry.cn-zhangjiakou.aliyuncs.com/shreade/media-server:latest
     restart: always
+    privileged: true
     container_name: app
     volumes:
       - ./app/config.json:/opt/application/config.json
