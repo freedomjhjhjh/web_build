@@ -1,28 +1,28 @@
 ![logo](https://shreade.cn/image/logo.png)
-## Web端搭建
-
+## 搭建
+——————————————————————————————————
+*  拉取代码
 ```shell
 git clone https://github.com/freedomjhjhjh/web_build.git
 cd web_build
-cp app/config.json.example app/config.json
-#
-#config.json说明
-#  ListenIp: 服务监听的IP
-#  ListenPort: 服务监听的端口
-#  MinPort、MaxPort: UDP端口范围
-#  License: 序列号
-#  NatIps: 外网IP
-#
-
-cp nginx/www/js/config.js.example nginx/www/js/config.js
-
-#修改WSS url地址
-
-docker-compose up
-
-#访问https://ip
+```
+*  修改ip地址，替换本机ip
+    -  app/config.json, 替换redis.default.addr 和 webrtc.candidates.nat1to1
+    -  nginx/www/js/config.js, 替换WSS_URL变量值
+      
+*  服务启动
+```shell
+docker-compose up -d
+```
+*  正常启动直接访问
+```shell
+https://ip地址/demo
 ```
 
 ## 联系方式
 
 <img src="https://shreade.cn/image/weixin200.jpg" alt="avatar" />
+
+[https://shreade.cn](https://shreade.cn)
+
+提供低延迟、高质量的音视频通信服务，专注于视频会议的私有化部署。
