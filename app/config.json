@@ -1,0 +1,52 @@
+{
+  "trace": {
+    "console": {
+      "level": "debug"
+    },
+    "file": {
+      "filename": "./logs/trace.log",
+      "max_size": 100,
+      "level": "info"
+    }
+  },
+  "log": {
+    "console": {
+      "level": "debug"
+    },
+    "file": {
+      "filename": "./logs/info.log",
+      "max_size": 200,
+      "level": "info"
+    }
+  },
+  "redis": {
+    "default": {
+      "addr": "192.168.0.161:6379",
+      "dial_timeout": 1,
+      "read_timeout": 3,
+      "write_timeout": 3,
+      "pool_size": 5,
+      "min_idle_conns": 3
+    }
+  },
+  "webrtc": {
+    "appId": "",
+    "appSecret": "",
+    "portrange": [
+      5000,
+      5200
+    ],
+    "codec": [
+      "video/vp8",
+      "video/vp9",
+      "video/h264"
+    ],
+    "sdpsemantics": "unified-plan",
+    "candidates": {
+      "nat1to1": [
+        "192.168.0.161"
+      ],
+      "icelite": true
+    }
+  }
+}
