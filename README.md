@@ -7,8 +7,8 @@ git clone https://github.com/freedomjhjhjh/web_build.git
 cd web_build
 ```
 *  修改ip地址，替换本机ip
-    -  app/config.json, 替换[redis.default.addr](/web_build/app/config.json#L24) 和 [webrtc.candidates.nat1to1](/web_build/app/config.json#L47)
-    -  nginx/www/js/config.js, 替换[WSS_URL](/web_build/nginx/www/js/config.js#L1)变量值
+    -  app/config.json, 替换[redis.default.addr](/app/config.json#L24) 和 [webrtc.candidates.nat1to1](/app/config.json#L47)
+    -  nginx/www/js/config.js, 替换[WSS_URL](/nginx/www/js/config.js#L1)变量值
       
 *  服务启动
 ```shell
