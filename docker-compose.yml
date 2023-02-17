@@ -1,7 +1,7 @@
 version: '3'
 services:
   nginx:
-    image: registry.cn-zhangjiakou.aliyuncs.com/shreade/media-web:202302171707
+    image: "registry.cn-zhangjiakou.aliyuncs.com/shreade/media-web:202302171804"
     ports:
       - "80:80"
       - "443:443"
@@ -24,5 +24,7 @@ services:
       - ./app/config.json:/opt/application/config.json
     container_name: app
     restart: always
+    privileged: true
+    user: root
     environment:
       - SRV_NAME=wss
