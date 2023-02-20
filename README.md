@@ -19,10 +19,10 @@ docker-compose up -d
 https://ip地址/demo
 ```
 <p>
-<img src="https://shreade.cn/image/p1.png" alt="demo" width="500" />
+<img src="https://shreade.cn/image/p1.png" alt="demo" width="800" />
 </p>
 <p>
-<img src="https://shreade.cn/image/p2.jpg" alt="demo" width="500" />
+<img src="https://shreade.cn/image/p2.jpg" alt="demo" width="800" />
 </p>
 ## 联系方式
 
