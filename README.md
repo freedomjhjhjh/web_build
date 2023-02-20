@@ -15,9 +15,14 @@ cd web_build
 docker-compose up -d
 ```
 *  正常启动直接访问
+    -  使用chrome浏览器访问, 因为私有证书浏览器认证, 所以要先访问
+    -  https://ip地址/wss/wss, 在页面里选择 高级 -> 继续访问
+
 ```shell
 https://ip地址/demo
 ```
+
+##  演示效果
 <p>
 <img src="https://shreade.cn/image/p1.png" alt="demo" width="800" />
 </p>
