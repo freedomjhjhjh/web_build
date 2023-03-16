@@ -21,6 +21,8 @@ docker-compose up -d
 ```shell
 https://ip地址/demo
 ```
+*  Android DEMO
+    -  [https://github.com/freedomjhjhjh/AndroidDemo](https://github.com/freedomjhjhjh/AndroidDemo)
 
 ##  演示效果
 <p>
